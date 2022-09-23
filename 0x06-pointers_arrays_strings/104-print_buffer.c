@@ -2,15 +2,11 @@
 
 #include <stdio.h>
 
-
-
 /**
  * isPrintableASCII - determines if n is a printable ASCII char
  * @n: integer
  * Return: 1 if true, 0 if false
  **/
-
-
 
 int isPrintableASCII(int n)
 
@@ -19,8 +15,6 @@ int isPrintableASCII(int n)
 	return (n >= 32 && n <= 126);
 
 }
-
-
 
 /**
  * printHexes - print hex values for string b in formatted form
@@ -34,8 +28,6 @@ void printHexes(char *b, int start, int end)
 {
 
 	int i = 0;
-
-
 
 	while (i < 10)
 
@@ -58,8 +50,6 @@ void printHexes(char *b, int start, int end)
 	}
 
 }
-
-
 
 /**
  * printASCII - print ascii values for string b,
